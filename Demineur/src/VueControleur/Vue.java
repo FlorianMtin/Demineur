@@ -22,6 +22,14 @@ public class Vue extends JFrame{
 
 
 
+	/**
+	 * @Author Florian 
+	 */
+	private static final long serialVersionUID = 1L;
+
+
+
+
 	public Vue() {
         super();
         
