@@ -66,8 +66,14 @@ public class Vue extends JFrame{
 		setSize(400, 400);
 		JComponent pan = new JPanel (new GridLayout(10,10));
 		
-		Border blackline = BorderFactory.createLineBorder(Color.white,1);
+		Border blackline = BorderFactory.createLineBorder(Color.black,1);
 	    
+		
+		for(int i=0; i<100;i++){
+			JComponent ptest = new Case();
+			ptest.setBorder(blackline);
+			pan.add(ptest);
+		}
 		pan.setBorder(blackline);
 		add(pan);
 		
