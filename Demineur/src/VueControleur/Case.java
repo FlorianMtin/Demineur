@@ -8,6 +8,11 @@ import javax.swing.JPanel;
 public class Case extends JPanel {
 
 	
+	/**
+	 * @author Florian
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public Case() {
 		super();
 		
