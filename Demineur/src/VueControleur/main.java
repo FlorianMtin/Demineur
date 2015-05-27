@@ -3,6 +3,9 @@ package VueControleur;
 
 import javax.swing.SwingUtilities;
 
+import Modele.Party;
+
+
 public class main {
 
 	public static void main(String[] args) {
@@ -13,6 +16,7 @@ public class main {
 	    	
 	    	public void run(){
 					
+	    			//Modele.Party game = new Party();
 					Vue fenetre = new Vue();
 					fenetre.setVisible(true);
 					
