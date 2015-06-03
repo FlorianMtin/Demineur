@@ -3,8 +3,6 @@ package VueControleur;
 
 import javax.swing.SwingUtilities;
 
-import Modele.Party;
-
 
 public class main {
 

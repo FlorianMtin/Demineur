@@ -2,10 +2,17 @@ package Modele;
 
 public class Party {
 	
+	private Grille grid;
 	
-	public Party(){
-		Case[][] map = null;
-		Grille d = new Grille(map, 10,10);
+	
+	
+	
+	
+	
+	public Party(int x, int y){
+		this.grid = new Grille(x,y,10);
+		
+		
 	}
 
 }
